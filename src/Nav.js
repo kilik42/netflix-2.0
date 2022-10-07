@@ -1,6 +1,7 @@
 import React from 'react'
 import './Nav.css'
 function Nav() {
+  const [show, handleShow] = useState(false);
   return (
     <div className="nav">
          <div className="nave__contents">
